@@ -6,6 +6,6 @@ int main() {
     int age; 
     cout << "กรุณาพิมพ์อายุเข้ามา: ";
     cin >> age;
-    cout << "คุณอายุเท่ากับ " << age;
+    cout << "คุณอายุ = " << age;
     return 0;
 }
