@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    string name;
+    cout << "คุณชื่ออะไร ? : ";
+    cin >> name;
+    cout << "คุณชื่อ = " << name << endl;
+    char firstCharacter = name[0];
+    cout << "ตัวอักษรตัวแรกของคุณคือ: " << firstCharacter << endl;
+
+    return 0;
+}
