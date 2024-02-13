@@ -6,12 +6,12 @@ int main() {
     int age; 
     cout << "กรุณาพิมพ์อายุเข้ามา: ";
     cin >> age;
-    cout << "คุณอายุ \n = " << age << endl; // การขึ้นบรรทัดใหม่
-
-    char favorite;
-    cout << "จงบอกอักษรที่คุณชอบ:";
-    cin >> favorite;
-    cout << "ตัวอักษรที่คุณชอบ = " << favorite;
-
+    cout << "คุณอายุ = " << age << endl; // การขึ้นบรรทัดใหม่
+    
+    int newAge;
+    cout << "กรุณาพิมพ์อายุอีกรอบ: ";
+    cin >> newAge;
+    age = newAge;
+    cout << "คุณอายุ = " << age << endl;    
     return 0;
 }
