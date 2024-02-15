@@ -9,9 +9,16 @@ int main()
 
     for (int i = 0; i < 5; i++)
     {
-        cout << "รับอายุคนที่" << (i + 1) << ":";
+        cout << "รับอายุคนที่ " << (i + 1) << " : ";
         cin >> ages[i];
         sumAge += ages[i];
+    }
+
+    cout << endl;
+
+    for (int i = 0; i < 5; i++)
+    {
+        cout << "อายุคนที่ " << (i + 1) << " = " << ages[i] << endl;
     }
 
     cout << "ผลรวมอายุทั้ง 5 คน = " << sumAge;
