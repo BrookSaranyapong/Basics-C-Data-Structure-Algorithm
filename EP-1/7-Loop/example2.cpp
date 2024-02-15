@@ -9,7 +9,7 @@ int main()
 
     for (int i = 0; i < 5; i++)
     {
-        cout << "รับอายุคนที่ " << (i + 1) << " : ";
+        cout << "รับอายุคนที่ " << (i + 1) << ": ";
         cin >> ages[i];
         sumAge += ages[i];
     }
