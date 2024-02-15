@@ -8,7 +8,9 @@ int main()
     cout << "คุณชื่ออะไร ? = ";
     cin >> name;
 
-    cout << "ความยาวของชื่อคุณ = " << name.length();
-
+    for (int i = 0; i < name.length(); i++)
+    {
+        cout << name[i] << endl;
+    }
     return 0;
 }
