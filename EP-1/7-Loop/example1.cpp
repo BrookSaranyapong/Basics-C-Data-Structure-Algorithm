@@ -5,17 +5,11 @@ using namespace std;
 int main()
 {
     int c = 0;
-    while (c < 10)
+    do
     {
-        cout << "While Loop Count = " << c << endl;
+        cout << "do While Loop Count = " << c << endl;
         c = c + 1;
-    }
+    } while (c < 10);
 
-    cout << endl;
-
-    for (int count = 0; count < 10; count++)
-    {
-        cout << "For Loop Count = " << count << endl;
-    }
     return 0;
 }
