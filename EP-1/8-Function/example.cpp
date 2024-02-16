@@ -3,15 +3,30 @@
 
 using namespace std;
 
-int add(int a, int b)
+int areaOfCircle(float radius)
 {
-    return a + b;
+    return 3.1415 * radius * radius;
 }
 
 int main()
 {
+    int radius;
+    for (int i = 0; i < 5; i++)
+    {
+        cout << "ใส่รัศมีเข้ามา: ";
+        cin >> radius;
+        int areaCircle = areaOfCircle(radius);
+        cout << "พื้นที่วงกลม: " << areaCircle << endl;
+    }
 
-    int sumNumber = add(3, 5);
-    cout << sumNumber;
+    cout << endl;
+
+    for (int i = 0; i < 5; i++)
+    {
+        cout << "ใส่รัศมีเข้ามา: ";
+        cin >> radius;
+        int areaCircle = areaOfCircle(radius);
+        cout << "พื้นที่วงกลม: " << areaCircle << endl;
+    }
     return 0;
 }
