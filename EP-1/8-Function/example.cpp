@@ -3,15 +3,15 @@
 
 using namespace std;
 
-int greet()
+int add(int a, int b)
 {
-    return 10;
+    return a + b;
 }
 
 int main()
 {
 
-    int age = greet();
-    cout << age;
+    int sumNumber = add(3, 5);
+    cout << sumNumber;
     return 0;
 }
