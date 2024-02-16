@@ -3,15 +3,15 @@
 
 using namespace std;
 
-string greet()
+int greet()
 {
-    return "Hello Brook";
+    return 10;
 }
 
 int main()
 {
 
-    string helloName = greet();
-    cout << helloName;
+    int age = greet();
+    cout << age;
     return 0;
 }
